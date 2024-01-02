@@ -21,13 +21,13 @@ export default async function Home() {
       <div className="flex animate-in flex-col gap-8">
         <div>
           <h1 className="animate-in text-3xl font-bold tracking-tight text-primary">
-            Kafui Kumah
+            Welcome to ATP-Stories
           </h1>
           <p
             className="animate-in text-secondary"
             style={{ "--index": 1 } as React.CSSProperties}
           >
-            Software Engineer
+            Sharing bit-sized stories of Amazing Tech People.
           </p>
         </div>
         {/* <div
