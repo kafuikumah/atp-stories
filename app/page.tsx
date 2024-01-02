@@ -30,42 +30,6 @@ export default async function Home() {
             Sharing bit-sized stories of Amazing Tech People.
           </p>
         </div>
-        {/* <div
-          className="flex animate-in flex-col gap-6 text-secondary md:flex-row md:items-center"
-          style={{ "--index": 1 } as React.CSSProperties}
-        >
-          <Image
-            src={Avatar}
-            width={85}
-            height={85}
-            alt="avatar"
-            className="rounded-full bg-secondary"
-          />
-          <Stats />
-        </div> */}
-        <p
-          className="max-w-lg animate-in text-primary"
-          style={{ "--index": 2 } as React.CSSProperties}
-        >
-          Hi, I&apos;m Kafui Kumah, a software engineer mostly interested in
-          python, nodejs, and building robust backend systems.
-        </p>
-        <p
-          className="max-w-lg animate-in text-primary"
-          style={{ "--index": 2 } as React.CSSProperties}
-        >
-          Interestsed in learning and exploring opportunities that challenge me
-          to grow my problem-solving, communication and writing skills.
-        </p>
-
-        <p
-          className="max-w-lg animate-in text-primary"
-          style={{ "--index": 2 } as React.CSSProperties}
-        >
-          When I am not coding up a storm, you can find me exploring new
-          technologies, playing video games, getting lost in a good book or
-          geeking out with passionate like-minded weirdos.
-        </p>
 
         <ul
           className="animated-list flex animate-in flex-col gap-2 text-secondary md:flex-row md:gap-6"
@@ -73,11 +37,11 @@ export default async function Home() {
         >
           <li className="transition-opacity">
             <Link
-              href="mailto:kafui.kofi.kumah@gmail.com"
+              href="https://x.com/atp-stories"
               className="flex items-center gap-2 no-underline"
             >
               <ArrowUpRightIcon className="h-5 w-5" />
-              <span>Email me</span>
+              <span>Follow Us On Twitter</span>
             </Link>
           </li>
           <li className="transition-opacity">
@@ -95,13 +59,15 @@ export default async function Home() {
         className="flex animate-in flex-col gap-8"
         style={{ "--index": 3 } as React.CSSProperties}
       >
-        <h2 className="text-secondary">Writing</h2>
+        <h2 className="tanimate-in text-xl font-bold tracking-tight text-primary">
+          Stories
+        </h2>
         <PostList posts={posts} />
         <Link
           href="/blog"
           className="text-secondary underline underline-offset-4 hover:text-primary"
         >
-          See All
+          See All Stories
         </Link>
       </div>
     </div>
